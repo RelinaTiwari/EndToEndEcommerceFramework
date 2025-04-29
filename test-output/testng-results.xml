@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-29T13:54:27 IST" name="Suite" finished-at="2025-04-29T13:55:37 IST" duration-ms="70304">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrder.submitOrder(java.util.HashMap)[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@7ca20101]" name="submitOrder" class="EndToEndEcommerceFramework.tests.SubmitOrder"/>
+      </group> <!-- Purchase -->
+      <group name="Error Validation">
+        <method signature="ErrorValidationTest.invalidCredentials()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@3212a8d7]" name="invalidCredentials" class="EndToEndEcommerceFramework.tests.ErrorValidationTest"/>
+      </group> <!-- Error Validation -->
+    </groups>
+    <test started-at="2025-04-29T13:54:27 IST" name="Submit Order Test" finished-at="2025-04-29T13:55:18 IST" duration-ms="51701">
+      <class name="EndToEndEcommerceFramework.tests.SubmitOrder">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@7ca20101]" started-at="2025-04-29T13:54:27 IST" name="launchApplication" finished-at="2025-04-29T13:54:39 IST" duration-ms="12748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@7ca20101]" started-at="2025-04-29T13:54:39 IST" name="submitOrder" data-provider="getData" finished-at="2025-04-29T13:54:51 IST" duration-ms="11947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Relina12@#, email=relinatiwari.rt@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@7ca20101]" started-at="2025-04-29T13:54:51 IST" name="tearDown" finished-at="2025-04-29T13:54:52 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@7ca20101]" started-at="2025-04-29T13:54:52 IST" name="launchApplication" finished-at="2025-04-29T13:54:55 IST" duration-ms="3327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@7ca20101]" started-at="2025-04-29T13:54:55 IST" name="submitOrder" data-provider="getData" finished-at="2025-04-29T13:55:04 IST" duration-ms="9404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Relina12@#, email=relinatiwari.rt@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@7ca20101]" started-at="2025-04-29T13:55:04 IST" name="tearDown" finished-at="2025-04-29T13:55:05 IST" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@7ca20101]" started-at="2025-04-29T13:55:05 IST" name="launchApplication" finished-at="2025-04-29T13:55:17 IST" duration-ms="12102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="validateOrder()[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@7ca20101]" started-at="2025-04-29T13:55:17 IST" name="validateOrder" finished-at="2025-04-29T13:55:18 IST" depends-on-methods="EndToEndEcommerceFramework.tests.SubmitOrder.submitOrder" duration-ms="768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@7ca20101]" started-at="2025-04-29T13:55:18 IST" name="tearDown" finished-at="2025-04-29T13:55:18 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- EndToEndEcommerceFramework.tests.SubmitOrder -->
+    </test> <!-- Submit Order Test -->
+    <test started-at="2025-04-29T13:55:18 IST" name="Error Validation Test" finished-at="2025-04-29T13:55:37 IST" duration-ms="18352">
+      <class name="EndToEndEcommerceFramework.tests.ErrorValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@3212a8d7]" started-at="2025-04-29T13:55:18 IST" name="launchApplication" finished-at="2025-04-29T13:55:23 IST" duration-ms="4135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="invalidCredentials()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@3212a8d7]" started-at="2025-04-29T13:55:23 IST" name="invalidCredentials" finished-at="2025-04-29T13:55:24 IST" duration-ms="907" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email orrr password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email orrr password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at EndToEndEcommerceFramework.tests.ErrorValidationTest.invalidCredentials(ErrorValidationTest.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@3212a8d7]" started-at="2025-04-29T13:55:24 IST" name="tearDown" finished-at="2025-04-29T13:55:24 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@3212a8d7]" started-at="2025-04-29T13:55:24 IST" name="launchApplication" finished-at="2025-04-29T13:55:27 IST" duration-ms="3337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="invalidProduct()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@3212a8d7]" started-at="2025-04-29T13:55:27 IST" name="invalidProduct" finished-at="2025-04-29T13:55:36 IST" duration-ms="8624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@3212a8d7]" started-at="2025-04-29T13:55:36 IST" name="tearDown" finished-at="2025-04-29T13:55:37 IST" duration-ms="857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- EndToEndEcommerceFramework.tests.ErrorValidationTest -->
+    </test> <!-- Error Validation Test -->
+  </suite> <!-- Suite -->
+</testng-results>
