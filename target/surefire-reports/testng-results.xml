@@ -2,7 +2,7 @@
 <testng-results retried="1" ignored="0" total="6" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-30T00:36:47 IST" name="Suite" finished-at="2025-04-30T00:37:56 IST" duration-ms="68930">
+  <suite started-at="2025-04-30T12:11:51 IST" name="Suite" finished-at="2025-04-30T12:12:59 IST" duration-ms="67647">
     <groups>
       <group name="Purchase">
         <method signature="SubmitOrder.submitOrder(java.util.HashMap)[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@28dcca0c]" name="submitOrder" class="EndToEndEcommerceFramework.tests.SubmitOrder"/>
@@ -11,13 +11,13 @@
         <method signature="ErrorValidationTest.invalidCredentials()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@2254127a]" name="invalidCredentials" class="EndToEndEcommerceFramework.tests.ErrorValidationTest"/>
       </group> <!-- Error Validation -->
     </groups>
-    <test started-at="2025-04-30T00:36:47 IST" name="Submit Order Test" finished-at="2025-04-30T00:37:28 IST" duration-ms="40867">
+    <test started-at="2025-04-30T12:11:51 IST" name="Submit Order Test" finished-at="2025-04-30T12:12:30 IST" duration-ms="39148">
       <class name="EndToEndEcommerceFramework.tests.SubmitOrder">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@28dcca0c]" started-at="2025-04-30T00:36:47 IST" name="launchApplication" finished-at="2025-04-30T00:36:58 IST" duration-ms="10386" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@28dcca0c]" started-at="2025-04-30T12:11:51 IST" name="launchApplication" finished-at="2025-04-30T12:11:56 IST" duration-ms="4813" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@28dcca0c]" started-at="2025-04-30T00:36:58 IST" name="submitOrder" data-provider="getData" finished-at="2025-04-30T00:37:08 IST" duration-ms="9942" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@28dcca0c]" started-at="2025-04-30T12:11:56 IST" name="submitOrder" data-provider="getData" finished-at="2025-04-30T12:12:08 IST" duration-ms="11884" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,15 +28,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@28dcca0c]" started-at="2025-04-30T00:37:08 IST" name="tearDown" finished-at="2025-04-30T00:37:08 IST" duration-ms="235" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@28dcca0c]" started-at="2025-04-30T12:12:08 IST" name="tearDown" finished-at="2025-04-30T12:12:08 IST" duration-ms="414" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@28dcca0c]" started-at="2025-04-30T00:37:08 IST" name="launchApplication" finished-at="2025-04-30T00:37:13 IST" duration-ms="4871" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@28dcca0c]" started-at="2025-04-30T12:12:08 IST" name="launchApplication" finished-at="2025-04-30T12:12:12 IST" duration-ms="3737" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@28dcca0c]" started-at="2025-04-30T00:37:13 IST" name="submitOrder" data-provider="getData" finished-at="2025-04-30T00:37:23 IST" duration-ms="10106" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@28dcca0c]" started-at="2025-04-30T12:12:12 IST" name="submitOrder" data-provider="getData" finished-at="2025-04-30T12:12:24 IST" duration-ms="11562" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,31 +47,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@28dcca0c]" started-at="2025-04-30T00:37:23 IST" name="tearDown" finished-at="2025-04-30T00:37:23 IST" duration-ms="209" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@28dcca0c]" started-at="2025-04-30T12:12:24 IST" name="tearDown" finished-at="2025-04-30T12:12:24 IST" duration-ms="768" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@28dcca0c]" started-at="2025-04-30T00:37:23 IST" name="launchApplication" finished-at="2025-04-30T00:37:27 IST" duration-ms="3865" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@28dcca0c]" started-at="2025-04-30T12:12:24 IST" name="launchApplication" finished-at="2025-04-30T12:12:28 IST" duration-ms="3744" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="validateOrder()[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@28dcca0c]" started-at="2025-04-30T00:37:27 IST" name="validateOrder" finished-at="2025-04-30T00:37:28 IST" depends-on-methods="EndToEndEcommerceFramework.tests.SubmitOrder.submitOrder" duration-ms="887" status="PASS">
+        <test-method signature="validateOrder()[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@28dcca0c]" started-at="2025-04-30T12:12:28 IST" name="validateOrder" finished-at="2025-04-30T12:12:30 IST" depends-on-methods="EndToEndEcommerceFramework.tests.SubmitOrder.submitOrder" duration-ms="1593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@28dcca0c]" started-at="2025-04-30T00:37:28 IST" name="tearDown" finished-at="2025-04-30T00:37:28 IST" duration-ms="199" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EndToEndEcommerceFramework.tests.SubmitOrder@28dcca0c]" started-at="2025-04-30T12:12:30 IST" name="tearDown" finished-at="2025-04-30T12:12:30 IST" duration-ms="266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- EndToEndEcommerceFramework.tests.SubmitOrder -->
     </test> <!-- Submit Order Test -->
-    <test started-at="2025-04-30T00:37:28 IST" name="Error Validation Test" finished-at="2025-04-30T00:37:56 IST" duration-ms="27506">
+    <test started-at="2025-04-30T12:12:31 IST" name="Error Validation Test" finished-at="2025-04-30T12:12:59 IST" duration-ms="27212">
       <class name="EndToEndEcommerceFramework.tests.ErrorValidationTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@2254127a]" started-at="2025-04-30T00:37:28 IST" name="launchApplication" finished-at="2025-04-30T00:37:33 IST" duration-ms="4845" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@2254127a]" started-at="2025-04-30T12:12:31 IST" name="launchApplication" finished-at="2025-04-30T12:12:35 IST" duration-ms="3702" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method retried="true" signature="invalidCredentials()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@2254127a]" started-at="2025-04-30T00:37:33 IST" name="invalidCredentials" finished-at="2025-04-30T00:37:34 IST" duration-ms="1069" status="SKIP">
+        <test-method retried="true" signature="invalidCredentials()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@2254127a]" started-at="2025-04-30T12:12:35 IST" name="invalidCredentials" finished-at="2025-04-30T12:12:36 IST" duration-ms="1129" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Incorrect email or password.] but found [Incorrect email orrr password.]]]>
@@ -121,15 +121,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@2254127a]" started-at="2025-04-30T00:37:34 IST" name="tearDown" finished-at="2025-04-30T00:37:35 IST" duration-ms="212" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@2254127a]" started-at="2025-04-30T12:12:36 IST" name="tearDown" finished-at="2025-04-30T12:12:36 IST" duration-ms="223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@2254127a]" started-at="2025-04-30T00:37:35 IST" name="launchApplication" finished-at="2025-04-30T00:37:41 IST" duration-ms="6268" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@2254127a]" started-at="2025-04-30T12:12:36 IST" name="launchApplication" finished-at="2025-04-30T12:12:40 IST" duration-ms="3911" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="invalidCredentials()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@2254127a]" started-at="2025-04-30T00:37:41 IST" name="invalidCredentials" finished-at="2025-04-30T00:37:42 IST" duration-ms="1036" status="FAIL">
+        <test-method signature="invalidCredentials()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@2254127a]" started-at="2025-04-30T12:12:40 IST" name="invalidCredentials" finished-at="2025-04-30T12:12:41 IST" duration-ms="1076" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Incorrect email or password.] but found [Incorrect email orrr password.]]]>
@@ -179,19 +179,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@2254127a]" started-at="2025-04-30T00:37:42 IST" name="tearDown" finished-at="2025-04-30T00:37:43 IST" duration-ms="234" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@2254127a]" started-at="2025-04-30T12:12:45 IST" name="tearDown" finished-at="2025-04-30T12:12:45 IST" duration-ms="285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@2254127a]" started-at="2025-04-30T00:37:43 IST" name="launchApplication" finished-at="2025-04-30T00:37:47 IST" duration-ms="4361" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@2254127a]" started-at="2025-04-30T12:12:45 IST" name="launchApplication" finished-at="2025-04-30T12:12:49 IST" duration-ms="3617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="invalidProduct()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@2254127a]" started-at="2025-04-30T00:37:47 IST" name="invalidProduct" finished-at="2025-04-30T00:37:56 IST" duration-ms="8802" status="PASS">
+        <test-method signature="invalidProduct()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@2254127a]" started-at="2025-04-30T12:12:49 IST" name="invalidProduct" finished-at="2025-04-30T12:12:58 IST" duration-ms="9719" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@2254127a]" started-at="2025-04-30T00:37:56 IST" name="tearDown" finished-at="2025-04-30T00:37:56 IST" duration-ms="287" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EndToEndEcommerceFramework.tests.ErrorValidationTest@2254127a]" started-at="2025-04-30T12:12:58 IST" name="tearDown" finished-at="2025-04-30T12:12:59 IST" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

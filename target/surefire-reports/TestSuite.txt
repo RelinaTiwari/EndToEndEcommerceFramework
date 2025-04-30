@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 69.62 s <<< FAILURE! -- in TestSuite
-EndToEndEcommerceFramework.tests.ErrorValidationTest.invalidCredentials -- Time elapsed: 1.423 s <<< FAILURE!
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 68.89 s <<< FAILURE! -- in TestSuite
+EndToEndEcommerceFramework.tests.ErrorValidationTest.invalidCredentials -- Time elapsed: 4.414 s <<< FAILURE!
 java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email orrr password.]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
